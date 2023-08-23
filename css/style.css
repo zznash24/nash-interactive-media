@@ -862,10 +862,6 @@ a:focus {
           flex: 1;
 }
 
-.contact_section .map_container .map #googleMap {
-  height: 100%;
-}
-
 .client_section .heading_container {
   margin-bottom: 45px;
 }
