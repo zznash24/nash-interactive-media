@@ -1126,4 +1126,11 @@ a:focus {
 .img-2 {
   height: 270px;
 }
+.img-3 {
+  height: 270px;
+}
+.img-4 {
+  border-radius: 50%;
+  border: 10px solid orange
+}
 /*# sourceMappingURL=style.css.map */
