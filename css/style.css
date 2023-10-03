@@ -1134,4 +1134,7 @@ a:focus {
   border: 10px solid orange
 }
 
-/*# sourceMappingURL=style.css.map */
+#main-logo {
+  border-radius: 50%;
+  height: 9vh;
+}
