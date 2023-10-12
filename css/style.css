@@ -1143,3 +1143,33 @@ a:focus {
   color: white;
   font-family: fantasy;
 }
+
+.form-checkbox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 11px;
+}
+
+.checkbox-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 78px;
+}
+
+.checkbox-row > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.form-checkbox input[type="checkbox"] {
+  transform: scale(1.7);
+}
+.form-checkbox label {
+  font-size: 16px;
+  margin-left: 10px;
+}
