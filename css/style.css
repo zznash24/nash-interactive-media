@@ -1157,7 +1157,7 @@ a:focus {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5px;
-  margin-left: 78px;
+  margin-left: 23px;
 }
 
 .checkbox-row > div {
@@ -1172,4 +1172,8 @@ a:focus {
 .form-checkbox label {
   font-size: 16px;
   margin-left: 10px;
+}
+
+.checkbox-row div:first-child{
+  margin-right: 2px;
 }
