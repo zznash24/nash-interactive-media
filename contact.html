@@ -42,6 +42,9 @@
             <h1>Nash Interactive media</h1>
           </div>
           <div class="social_box">
+            <a href="mailto:sznash23@gmail.com" class="site-footer-link">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </a>
             <a href="">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
@@ -100,31 +103,36 @@
       <div class="row">
         <div class="col px-0">
           <div class="form_container">
-            <form action="">
+            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
+              
               <div class="form-row">
                 <div class="form-group col-lg-6">
-                  <input type="text" class="form-control" placeholder="Your Name" />
+                  <input type="text" class="form-control" placeholder="Your Name" name="name" />
                 </div>
                 <div class="form-group col-lg-6">
-                  <input type="text" class="form-control" placeholder="Phone Number" />
+                  <input type="text" class="form-control" placeholder="Phone Number" name="phone" />
                 </div>
               </div>
+              
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Email" />
+                  <input type="email" class="form-control" placeholder="Email" name="email" />
                 </div>
               </div>
+              
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="message-box form-control" placeholder="Message" />
+                  <input type="text" class="message-box form-control" placeholder="Message" name="message" />
                 </div>
               </div>
+              
               <div class="btn_box">
-                <button>
+                <button type="submit">
                   SEND
                 </button>
               </div>
-            </form>
+            </form>            
           </div>
         </div>
       </div>
