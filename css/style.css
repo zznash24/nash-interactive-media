@@ -1141,7 +1141,8 @@ a:focus {
 
 .header-title {
   color: white;
-  font-family: fantasy;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 .form-checkbox {
