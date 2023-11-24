@@ -16,7 +16,7 @@
 
 @media (max-width: 992px) {
   .hero_area {
-    height: auto;
+    height: 100vh;
   }
 
   .header_section .header_top {
@@ -98,7 +98,9 @@
   .info_section .social_box {
     margin-bottom: 25px;
   }
-
+  .thank-you-box{
+    width:350px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -120,9 +122,19 @@
     margin-top: 15px;
     margin-left: 0;
   }
+  .thank-you-box{
+    width:350px;
+  }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+  .thank-you-box{
+    width:350px;
+  }
+  .hero_area{
+    height: 100vh
+  }
+}
 
 @media (max-width: 420px) {}
 
