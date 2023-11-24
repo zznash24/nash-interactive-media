@@ -44,3 +44,8 @@ $('.owl-filter-bar').on('click', '.item', function (e) {
 $(document).ready(function () {
     $('select').niceSelect();
 });
+
+function handleFormSubmission() {
+    window.location.href = "/thankyou.html";
+    return false;
+  }

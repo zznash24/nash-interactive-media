@@ -1178,3 +1178,19 @@ a:focus {
 .checkbox-row div:first-child{
   margin-right: 2px;
 }
+
+.thank-you-box {
+  width: 35vw;
+  padding: 15px;
+  border-radius: 3%;
+  background-color: #ffffffea;
+  border: 2px solid black;
+}
+.check-mark {
+  height: 15vh;
+}
+
+.thank-you-btn {
+  border: 2px solid black;
+  background-color: rgb(237, 126, 3);
+}
