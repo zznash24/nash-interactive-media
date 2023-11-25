@@ -819,7 +819,8 @@ a:focus {
 }
 
 .contact_section .form_container .form-control.message-box {
-  height: 95px;
+  height: 75px;
+  
 }
 
 .contact_section .form_container .btn_box {
