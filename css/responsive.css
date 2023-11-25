@@ -25,6 +25,15 @@
   .heading_container h2 {
     justify-content: center;
   }
+
+  .checkbox-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkbox-row>div {
+    margin-bottom: 5px;
+  }
 }
 
 @media (max-width: 1120px) {
@@ -41,6 +50,15 @@
 
   .heading_container h2 {
     margin: 0 auto;
+  }
+
+  .checkbox-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkbox-row>div {
+    margin-bottom: 5px;
   }
 }
 
@@ -100,6 +118,15 @@
 
   .heading_container h2 {
     margin: 0 auto;
+  }
+
+  .checkbox-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkbox-row>div {
+    margin-bottom: 5px;
   }
 }
 
@@ -162,6 +189,15 @@
   .heading_container h2 {
     margin: 0 auto;
   }
+
+  .checkbox-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkbox-row>div {
+    margin-bottom: 5px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -202,6 +238,15 @@
   .heading_container h2 {
     margin: 0 auto;
   }
+
+  .checkbox-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkbox-row>div {
+    margin-bottom: 5px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -226,6 +271,15 @@
 
   .heading_container h2 {
     margin: 0 auto;
+  }
+
+  .checkbox-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkbox-row>div {
+    margin-bottom: 5px;
   }
 }
 
