@@ -96,59 +96,67 @@
   </div>
 
   <section class="service_section layout_padding service_page_section">
-    <div class="container ">
+    <div class="container">
       <div class="heading_container heading_center">
         <h2>Our <span>Services</span></h2>
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-4">
-          <div class="box">
+          <div class="box" onclick="showServices('websiteCreation')">
             <div class="img-box">
               <img src="images/web-create-icon.png" alt="" />
             </div>
             <div class="detail-box">
-              <h5>
-                Website Creation
-              </h5>
-              <p>
-                Creating Highly customizable Professional and Personal Websites.
-              </p>
+              <h5>Website Creation</h5>
+              <p>Creating Highly customizable Professional and Personal Websites.</p>
             </div>
           </div>
+          <ul id="websiteCreationServices" style="display: none;">
+            <!-- Add your list of services for Website Creation here -->
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+          </ul>
         </div>
+  
         <div class="col-sm-6 col-md-4">
-          <div class="box ">
+          <div class="box" onclick="showServices('seo')">
             <div class="img-box">
               <img src="images/seo-mag-icon.png" alt="" />
             </div>
             <div class="detail-box">
-              <h5>
-                SEO
-              </h5>
-              <p>
-                Unlocking Digital Success: Elevating Websites Through Expert SEO Strategies
-              </p>
+              <h5>SEO</h5>
+              <p>Unlocking Digital Success: Elevating Websites Through Expert SEO Strategies</p>
             </div>
           </div>
+          <ul id="seoServices" style="display: none;">
+            <!-- Add your list of services for SEO here -->
+            <li>Service A</li>
+            <li>Service B</li>
+            <li>Service C</li>
+          </ul>
         </div>
+  
         <div class="col-sm-6 col-md-4">
-          <div class="box ">
+          <div class="box" onclick="showServices('websiteAndSeoManagement')">
             <div class="img-box">
               <img src="images/web-seo-icon.png" alt="" />
             </div>
             <div class="detail-box">
-              <h5>
-                Website and SEO Management
-              </h5>
-              <p>
-                Elevate Your Online Presence with Monthly Strategy Updates
-              </p>
+              <h5>Website and SEO Management</h5>
+              <p>Elevate Your Online Presence with Monthly Strategy Updates</p>
             </div>
           </div>
+          <ul id="websiteAndSeoManagementServices" style="display: none;">
+            <!-- Add your list of services for Website and SEO Management here -->
+            <li>Service X</li>
+            <li>Service Y</li>
+            <li>Service Z</li>
+          </ul>
         </div>
       </div>
     </div>
-  </section>>
+  </section>
 
 
 
@@ -242,7 +250,15 @@
     </div>
   </section>
 
-
+  <script>
+    function showServices(serviceType) {
+      document.querySelectorAll('ul').forEach(ul => ul.style.display = 'none');
+      const serviceList = document.getElementById(serviceType + 'Services');
+      serviceList.style.display = 'block';
+      document.querySelectorAll('.box').forEach(box => box.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+    }
+  </script>
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
