@@ -49,3 +49,11 @@ function handleFormSubmission() {
     window.location.href = "/thankyou.html";
     return false;
   }
+
+  function showServices(serviceType) {
+    document.querySelectorAll('ul').forEach(ul => ul.style.display = 'none');
+    const serviceList = document.getElementById(serviceType + 'Services');
+    serviceList.style.display = 'block';
+    document.querySelectorAll('.box').forEach(box => box.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+  }
